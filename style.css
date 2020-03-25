@@ -1,5 +1,28 @@
+body {
+    font-family: 'Archivo', sans-serif;
+    color: black;
+}
+
 .hero-bg-img {
     background-image: url(images/bg.jpg);
     background-position: center;
     background-size: cover;
+    height: 100vh;
+}
+
+.vh-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.me-img {
+    max-width: 360px;
+    width: 100%;
+}
+
+.tools img {
+    max-height: 50px;
 }
