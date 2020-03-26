@@ -26,3 +26,10 @@ body {
 .tools img {
     max-height: 50px;
 }
+.services {
+    background:#F5F4FA;
+}
+
+.serve-img {
+    max-height: 80px;
+}
