@@ -27,7 +27,10 @@ body {
     max-height: 50px;
 }
 .services {
-    background:#F5F4FA;
+    background:#F3F1FF;
+}
+.design {
+    background:#E8E6F2;
 }
 
 .serve-img {
