@@ -48,3 +48,38 @@ body {
 .contacts, .contacts p {
     line-height: 60px;
 }
+
+.sub-menu {
+    display: none;
+    width: 190px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+.sub-menu li {
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.has-dropdown:hover > a {
+    color: #DE751F;
+}
+
+.has-dropdown:hover .sub-menu {
+    display: block;
+}
+
+
+.sub-menu li:hover a {
+   color: black;
+}
+
+.hero-text {
+    max-width: 648px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.is-active {
+    color: #DE751F;
+}

@@ -14,9 +14,9 @@
     <!-- header -->
     <section class="">
       <div class="container mx-auto">
-        <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <nav class="flex items-center justify-between flex-wrap bg-teal-500 px-6">
   <div class="flex items-center flex-shrink-0 mr-6">
-        <span class="font-semibold text-xl tracking-tight">GMITRA</span>
+    <a href="index.html" class="text-black no-underline font-semibold text-2xl tracking-tight">GMITRA</a>
   </div>
   <div class="block lg:hidden">
     <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -25,16 +25,25 @@
   </div>
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow">
-      <div class="float-right">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange no-underline mr-4">
-        About me
-      </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-orange-dark hover:text-orange no-underline mr-4">
-        Services
-      </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange no-underline">
-        Contact me
-      </a>
+      <div class="float-right pt-4">
+        <ul class="">
+            <li class="inline-block pb-4 px-2 m-4"> <a href="about.html" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange no-underline mr-4">
+              About
+            </a>
+          </li>
+          <li class="has-dropdown relative inline-block pb-4 px-2 m-4"><a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-white is-active hover:text-orange no-underline mr-4">
+            Work
+          </a>
+          <ul class="sub-menu absolute list-reset text-left bg-orange-dark">
+            <li><a class="text-white no-underline" href="web-graphic-design.html">Web &amp; Graphic Design</a></li>
+          <li><a class="text-white no-underline" href="ux-design.html">UX Design &amp; Research</a></li>
+          <li><a class="text-white no-underline" href="front-end-dev.html">Front-End Development</a></li>
+          </ul>
+        </li>
+        <li class="inline-block pb-4 px-2 m-4"><a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-orange no-underline">
+          Contact
+        </a></li>
+          </ul>
     </div>
     </div>
    
@@ -164,11 +173,11 @@
  
   <!-- end of section -->  
 
-
+  <a name="contact"></a>
   <section class="footer-section">
     <div class="container mx-auto px-4 pt-24 pb-12 text-white">
       <div class="px-4 contacts">
-        <p class="uppercase font-bold text-sm">Contact</p>
+        <p class="uppercase font-bold text-sm">Contact Me</p>
         <h1 class="text-5xl pt-4 pb-8">Get in touch</h1>
         <div>
           <img class="inline-block mr-2" src="images/mail.png" alt="email"> <p class="inline-block">jottpp@gmail.com</p>
