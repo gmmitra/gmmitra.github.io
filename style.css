@@ -23,6 +23,10 @@ body {
     width: 100%;
 }
 
+.me-img.homie {
+    max-width: 260px;
+}
+
 .tools img {
     max-height: 50px;
 }
