@@ -83,3 +83,13 @@ body {
 .is-active {
     color: #DE751F;
 }
+
+
+.back-arrow {
+    width: 30px;
+    opacity: .5;
+}
+
+a:hover>.back-arrow {
+    opacity: 1;
+}
