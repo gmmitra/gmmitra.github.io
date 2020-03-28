@@ -15,23 +15,18 @@
     <section class="hero-bg-img">
       <div class="container mx-auto">
         <nav class="flex items-center justify-between flex-wrap bg-teal-500 px-6">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <span class="font-semibold text-2xl tracking-tight">GMITRA</span>
+  <div class="flex items-center flex-shrink-0 text-white">
+        <span class="font-semibold text-2xl tracking-tight">GM</span>
   </div>
-  <div class="block lg:hidden">
-    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-    </button>
-  </div>
-  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+  <div class="w-full block flex-1 lg:flex lg:items-center lg:w-auto">
     <div class="text-sm lg:flex-grow">
-      <div class="float-right pt-4">
+      <div class="float-right md:pt-4">
         <ul class="">
-          <li class="inline-block pb-4 px-2 m-4"> <a href="about.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline mr-4">
+          <li class="inline-block pb-4 px-2 md:m-4"> <a href="about.html" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline">
             About
           </a>
         </li>
-        <li class="has-dropdown relative inline-block pb-4 px-2 m-4"><a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline mr-4">
+        <li class="has-dropdown relative inline-block pb-4 px-2 md:m-4"><a href="#work" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline">
           Work
         </a>
         <ul class="sub-menu absolute list-reset text-left bg-orange-dark">
@@ -40,7 +35,7 @@
           <li><a class="text-white no-underline" href="front-end-dev.html">Front-End Development</a></li>
         </ul>
       </li>
-      <li class="inline-block pb-4 px-2 m-4"><a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline">
+      <li class="inline-block pb-4 px-2 md:m-4"><a href="#contact" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange no-underline">
         Contact
       </a></li>
         </ul>
@@ -53,7 +48,7 @@
 </div>
        
           <div class="text-center p-6 vh-center">
-            <p class="text-5xl font-bold text-white hero-text">
+            <p class="text-4xl md:text-5xl font-bold text-white hero-text">
                 UX designer and Front-end developer living in Manila.
             </p>
           </div>
@@ -67,17 +62,22 @@
   <section class="">
     <div class="container mx-auto pt-24 pb-12">
       <div class="flex flex-wrap bg-gray-200">
-        <div class="w-3/5 p-2">
-          <div class="p-2">
-            <p class="uppercase font-bold text-sm">About me</p>
-            <h1 class="text-black text-4xl pt-8 pb-5">Hi! My name is George. My friends call me Jott, <span class="text-orange-dark">you can call me Jott</span> too :)</h1>
-            <p class="font-bold text-2xl leading-normal">
-              I help companies by <span class="text-orange-dark">designing solutions</span> and awesome development services for apps and websites. I’ve worked with corporations, advertising agencies, entrepreneurs, designers, and developers.
-            </p>
-            <p class="leading-loose pt-5"><a href="about.html" class="no-underline hover:underline text-orange-dark">More about me ></a></p>
+        <div class="w-full md:hidden p-2">
+          <div class="text-gray-700 text-center p-2">
+            <img class="me-img homie" src="images/jott2x.jpg" alt="">
           </div>
         </div>
-        <div class="w-2/5 p-2">
+        <div class="w-full md:w-3/5 p-2">
+          <div class="p-2">
+            <p class="hidden md:block uppercase font-bold text-sm">About me</p>
+            <h1 class="text-black text-2xl md:text-4xl pt-8 pb-5">Hi! My name is George. My friends call me Jott, <span class="text-orange-dark">you can call me Jott</span> too :)</h1>
+            <p class="font-bold text-lg md:text-2xl leading-normal">
+              I help companies by <span class="text-orange-dark">designing solutions</span> and awesome development services for apps and websites. I’ve worked with corporations, advertising agencies, entrepreneurs, designers, and developers.
+            </p>
+            <p class="leading-loose pt-5 text-lg text-center"><a href="about.html" class="no-underline hover:underline text-orange-dark">More about me ></a></p>
+          </div>
+        </div>
+        <div class="hidden md:block w-2/5 p-2">
           <div class="text-gray-700 text-center p-2 mt-16">
             <img class="me-img homie" src="images/jott2x.jpg" alt="">
           </div>
@@ -89,8 +89,8 @@
       <div class="flex flex-wrap bg-gray-200">
         
           <div class="px-4">
-            <p class="uppercase font-bold text-sm">Tech Skills</p>
-            <h1 class="text-black text-5xl pt-8 pb-8">Tools I use</h1>
+            <p class="uppercase font-bold text-sm hidden md:block ">Tech Skills</p>
+            <h1 class="text-black text-large md:text-5xl pt-8 pb-8">Tools I use</h1>
             <div class="tools">
               <div class="inline-block pr-4 pb-4">
                 <img src="images/1.jpg" title="Photoshop" alt="Photoshop">
@@ -178,20 +178,20 @@
 
   <section class="services">
     <div class="container mx-auto px-4 pt-24 pb-12">
-      <div class="flex bg-gray-200">
-        <div class="flex-1 text-center bg-gray-400 px-4 py-2 m-2">
+      <div class="flex-wrap md:flex bg-gray-200">
+        <div class="flex-none md:flex-1 text-center bg-gray-400 px-4 py-2 mb-20 md:m-2">
           <img src="images/design.png" class="serve-img mb-4" alt="web and graphic design">
           <h2 class="my-4 text-3xl">Web & Graphic<br>Design</h2>
           <p class="my-4 text-lg leading-normal">Creating visual elements to effectively convey information and communicate messages</p>
           <a href="web-graphic-design.html" class="no-underline border-2 border-black text-black hover:text-orange-dark hover:border-orange-dark px-8 py-4 my-4 inline-block">View work</a>
         </div>
-        <div class="flex-1 text-center bg-gray-400 px-4 py-2 m-2">
+        <div class="flex-none md:flex-1 text-center bg-gray-400 px-4 py-2 mb-20 md:m-2 m-2">
           <img src="images/ux.png" class="serve-img mb-4" alt="web and graphic design">
           <h2 class="my-4 text-3xl">UX Design &<br>Research</h2>
           <p class="my-4 text-lg leading-normal">Designing products by deeply understanding the customer's needs and business objectives</p>
           <a href="ux-design.html" class="no-underline border-2 border-black text-black hover:text-orange-dark hover:border-orange-dark px-8 py-4 my-4 inline-block">View work</a>
         </div>
-        <div class="flex-1 text-center bg-gray-400 px-4 py-2 m-2">
+        <div class="flex-none md:flex-1 text-center bg-gray-400 px-4 py-2 mb-20 md:m-2 m-2">
           <img src="images/code.png" class="serve-img mb-4" alt="web and graphic design">
           <h2 class="my-4 text-3xl">Front-End<br>Development</h2>
           <p class="my-4 text-lg leading-normal">Converting design to a graphical interface, through the use of HTML, CSS, and JavaScript</p>

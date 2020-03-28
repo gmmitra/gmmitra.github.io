@@ -11,11 +11,13 @@ body {
 }
 
 .vh-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 .me-img {
@@ -58,6 +60,7 @@ body {
     width: 190px;
     padding: 10px 20px;
     margin-top: 15px;
+    left:-75%;
 }
 .sub-menu li {
    margin-bottom: 10px;
@@ -97,3 +100,8 @@ body {
 a:hover>.back-arrow {
     opacity: 1;
 }
+
+@media only screen and (min-width: 768px) {
+   
+    
+  }
